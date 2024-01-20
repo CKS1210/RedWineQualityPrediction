@@ -1,7 +1,7 @@
 import os 
 from box.exceptions import BoxValueError
 import yaml
-from ChickenDiseaseClassification import logger
+from RedWineQualityPrediction import logger
 import json
 import joblib 
 from ensure import ensure_annotations
@@ -20,7 +20,7 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
     Raises: 
         ValueError: if yaml file is empty or not valid
         e: empty file
-    
+      
     Returns:
         configBox: configBox object
     """
