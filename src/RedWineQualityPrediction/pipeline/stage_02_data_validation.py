@@ -3,7 +3,7 @@ from src.RedWineQualityPrediction.components.data_validation import DataValidati
 from src.RedWineQualityPrediction import logger
 
 
-STAGE_NAME = "Data DataValidationalidation Stage"
+STAGE_NAME = "Data Validation Stage"
 
 class DataValidationTrainingPipeline:
     def __init__(self):
